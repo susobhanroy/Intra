@@ -1,0 +1,53 @@
+html,body{
+    margin:0;
+    padding:0;
+
+}
+body>div:first-child{
+    width:100%;
+}
+.block{
+    height:700px;
+}
+#top{
+    background:url('../img/back2.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height:700px;
+}
+#coding,#foodforfun{
+    background-color: #a1374c;
+}
+#newron,#gaming{
+    background-color: #e33b3b;
+}
+#robotics,#infocus{
+    background-color: #50bfad;
+}
+.title{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin-top:25%;
+}
+.upper{
+    height:100%;
+    width:100%;
+}
+.buffer{
+    padding:0;
+}
+
+#coding .buffer{
+    background-image: url('../img/coding.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#coding .upper{
+    background-color: rgba(161,55,76,0.6);
+}
